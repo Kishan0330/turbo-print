@@ -1,9 +1,9 @@
 {
-  "name": "turbo-print",
+  "name": "turbo-printer",
   "displayName": "Turbo Print",
   "description": "Automating the process of printing variables.",
   "version": "0.0.1",
-  "publisher": "KishanBabariya",
+  "publisher": "kishanbabariya",
   "engines": {
     "vscode": "^1.94.0"
   },
