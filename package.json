@@ -1,11 +1,13 @@
 {
   "name": "turbo-print",
   "displayName": "Turbo Print",
-  "description": "",
+  "description": "Automating the process of printing variables.",
   "version": "0.0.1",
+  "publisher": "KishanBabariya",
   "engines": {
     "vscode": "^1.94.0"
   },
+  "icon": "images/turbo.jepg",
   "categories": [
     "Other"
   ],
@@ -22,6 +24,7 @@
     {
       "command": "turbo-print.printVariable",
       "key": "ctrl+alt+k",
+      "mac": "ctrl+alt+k",
       "when": "editorTextFocus"
     }
   ]
@@ -44,5 +47,13 @@
     "typescript": "^5.6.2",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Kishan0330/turbo-print/issues",
+    "email": "kishanbabariya101@gmail.com"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Kishan0330/turbo-print"
   }
 }
